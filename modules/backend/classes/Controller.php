@@ -411,7 +411,7 @@ class Controller extends ControllerBase
 
         // No page title
         if (!$this->pageTitle) {
-            $this->pageTitle = 'backend::lang.page.untitled';
+            $this->pageTitle = Lang::get('backend::lang.page.untitled');
         }
 
         // Load the view
